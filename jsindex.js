@@ -1,5 +1,5 @@
-var data=fetch("tarifveri.json")
-then=(response=>response.json())
+var data=fetch("tarifveri.json");
+then=(response=>response.json());
 then(veri=>{
-  console.log(veri.tarif)
-})
+  console.log(veri.tarif);
+});
