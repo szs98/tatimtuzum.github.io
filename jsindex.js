@@ -5,8 +5,11 @@ then(veri=>{
 });
 function a(){
   var msg = Document.GetElementById("msj");
-  var ptext=
+  var ptext= Document.GetElementByID("yazi");
   try{
-    
+    p.innerHTML = veri.tarif.msj.value
+  }
+  catch{
+    alert("Tarif bulunamadı")
   }
 }
