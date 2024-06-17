@@ -6,10 +6,10 @@ then(veri=>{
 function a(){
   var msg = Document.GetElementById("msj");
   var ptext= Document.GetElementByID("yazi");
-  try{
+  try {
     p.innerHTML = veri.tarif.msj.value
   }
-  catch{
+  catch {
     alert("Tarif bulunamadı")
   }
 }
