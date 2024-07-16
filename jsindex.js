@@ -13,7 +13,7 @@ function a(){
   const msg = document.getElementById("msj");
   const ptext= document.getElementById("yazi");
   try {
-    ptext.innerHTML = veri.tarif.msg.value
+    ptext.innerHTML = veri.tarif.msj.value
   }
   catch {
     alert("Tarif bulunamadı")
