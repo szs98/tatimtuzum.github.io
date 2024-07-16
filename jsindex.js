@@ -19,3 +19,4 @@ function a(){
     alert("Tarif bulunamadı")
   }
 }
+a()
