@@ -11,7 +11,7 @@ then(veri=>{
 });
 function a(){
   const msg = document.getElementById("msj");
-  const ptext= document.getElementByID("yazi");
+  const ptext= document.getElementById("yazi");
   try {
     p.innerHTML = veri.tarif.msj.value
   }
