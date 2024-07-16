@@ -1,9 +1,9 @@
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
-);
+//const root = ReactDOM.createRoot(document.getElementById('root'));
+//root.render(
+//  <BrowserRouter basename={process.env.PUBLIC_URL}>
+//    <App />
+//  </BrowserRouter>
+//);
 var data=fetch("tarifveri.json");
 then=(response=>response.json);
 then(veri=>{
