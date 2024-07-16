@@ -10,8 +10,8 @@ then(veri=>{
   console.log(veri.tarif);
 });
 function a(){
-  var msg = Document.GetElementById("msj");
-  var ptext= Document.GetElementByID("yazi");
+  const msg = document.getElementById("msj");
+  const ptext= document.getElementByID("yazi");
   try {
     p.innerHTML = veri.tarif.msj.value
   }
